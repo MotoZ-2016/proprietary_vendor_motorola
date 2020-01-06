@@ -18,7 +18,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/griffin
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/griffin/proprietary/bin/move_time_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_time_data.sh \
     vendor/motorola/griffin/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/permissions/com.motorola.moto.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.moto.xml \
     vendor/motorola/griffin/proprietary/vendor/etc/permissions/com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motodisplay.xml \
