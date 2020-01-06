@@ -378,40 +378,6 @@ android_app_import {
 	soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-	name: "gatekeeper.msm8996",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/gatekeeper.msm8996.so"],
-		},
-	},
-	compile_multilib: "64",
-	sub_dir: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "keystore.msm8996",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/keystore.msm8996.so"],
-		},
-	},
-	compile_multilib: "64",
-	sub_dir: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
 android_app_import {
 	name: "MotCameraMod",
 	owner: "motorola",
